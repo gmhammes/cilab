@@ -1,0 +1,206 @@
+/**
+
+Estilo da Página:
+C:\xampp\htdocs\ci\v2\ci\assets\css\backup_de_estilos\estilo_padrao.css
+*/
+body {
+    text-align:justify;
+    font:75%/140% Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    // #FFFFFF = Branco
+    // #99FF99 = Verde Claro
+    // #66FFFF = Azul claro
+    // #D9D9F3 = Cinza
+}
+#tudo { 
+    //border:1px solid #c30;
+    //width:740px;
+    width:970px;
+    margin:0 auto;
+    text-align:left;
+    voice-family: "}";
+    voice-family:inherit;
+    width:970px;
+}
+#divTop {
+    border:1px solid #66FFFF;
+    height:100px;
+    background:#FFFFFF;
+}
+#divContent {
+    //border:1px solid #c30;
+    float:left;
+    width: 69%;
+    background:#FFFFFF;
+    margin: 5px 400px;
+    margin-left:1px;
+    margin-right:1px;
+    display:inline; /* hack navegadores ruins */
+}
+#divRight {
+    //border:1px solid #c30;
+    float:left;
+    width: 15%;
+    background:#FFFFFF;
+    margin-left: 5px;
+}
+#divLeft {
+    //border:1px solid #c30;
+    float:left;
+    width: 15%;
+    background:#FFFFFF;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#divBottom {
+    text-align:center;
+    margin: 40px 5px;
+    border:1px solid #66FFFF;
+    height:50px;
+    background:#FFFFFF;
+    clear:both;
+}
+* {
+    padding:0;
+}
+/**
+
+Estilo do Formulário:
+
+*/ 
+form{
+    //border:1px solid #9C9C9C;
+    margin:10px;
+}
+form label{
+    //background-color: #E0FFFF;
+    //width: 150px;
+    //float:left;
+    border: 1px;
+    padding: 1px;
+    font-size: small;
+    display: block;
+}
+form input[type=text]{
+    //border:1px solid #9C9C9C;
+    width: 600px;
+    padding: 1px;
+}
+form input[type=textarea]{
+    //border:1px solid #9C9C9C;
+    padding: 1px;
+}
+form input[type=password]{
+    //border:1px solid #9C9C9C;
+    width: 600px;
+    padding: 1px;
+}
+form input[type=text]:focus, form input[type=password]:focus{
+    border: 2px solid #0cf;
+}
+form input[type=submit]{
+    border: 1px solid #9C9C9C;
+    padding: 2px;
+    cursor: pointer;
+    display: block;
+    margin: 1px;
+}
+/**
+
+Estilo da div padrão:
+
+*/
+div{
+    //border:1px solid #66FFFF;
+    //text-align: justify;
+    margin:0 auto;
+}
+.tituloAplicacao{
+    font-size: x-large;
+    text-align:center;
+    padding: 5px;
+}
+/**
+
+Estilo para as legendas:
+
+*/
+legend{
+    font-size: 17px;
+    padding: 5px;
+}
+
+
+/**
+
+Tabelas do Sistema 
+
+*/
+
+table{
+    border: 0px solid black;
+    border-spacing: 0px;
+}
+
+table thead tr{
+    font-family: Arial, monospace;
+    font-size: 14px;
+}
+
+table thead tr th{
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    margin: 0px;
+    padding: 2px;
+    background-color: #cccccc;
+}
+
+table tr {
+    font-family: arial, monospace;
+    color: black;
+    font-size:12px;
+    background-color: white;
+}
+
+table tr.odd {
+    background-color: #AAAAAA;
+}
+
+table tr td, th{
+    border-bottom: 1px solid black;
+    padding: 2px;
+}
+
+a:link{
+    font-family:arial, monospace;
+    text-decoration: none;
+    color: teal;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+/**
+
+Menu do Sistema 
+
+*/
+
+#botMenu{
+    background-color: #E8E8E8;
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+
+div#botMenu:hover
+{
+    background-color:#CFCFCF;
+}

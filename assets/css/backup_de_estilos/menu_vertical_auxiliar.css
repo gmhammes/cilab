@@ -1,0 +1,10 @@
+#botMenu{
+    background-color: #E8E8E8;
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+div#botMenu:hover
+{
+    background-color:#CFCFCF;
+}

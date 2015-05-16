@@ -1,0 +1,7 @@
+
+nbproject/
+_downloads/
+application/config/database.php
+# .gitignore
+# _downloads/**/*
+# nbproject/**/*

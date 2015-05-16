@@ -1,0 +1,43 @@
+table{
+    margin:0 auto; // Centraliza
+    border: 0px solid black;
+    border-spacing: 0px;
+}
+table thead tr{
+    font-family: Arial, monospace;
+    font-size: 11px;
+}
+table thead tr th{
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    margin: 0px;
+    padding: 2px;
+    background-color: #cccccc;
+}
+table tr {
+    font-family: arial, monospace;
+    color: black;
+    font-size:11px;
+    background-color: white;
+}
+table tr.odd {
+    background-color: #AAAAAA;
+}
+table tr td, th{
+    border-bottom: 1px solid black;
+    //padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a:link{
+    font-family:arial, monospace;
+    text-decoration: none;
+    color: teal;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}

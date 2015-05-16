@@ -1,0 +1,144 @@
+//C:\xampp\htdocs\ci\v2\ci\assets\css\pagina.css
+body {
+    text-align:justify;
+    font:75%/140% Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    // #FFFFFF = Branco
+    // #99FF99 = Verde Claro
+    // #66FFFF = Azul claro
+    // #D9D9F3 = Cinza
+}
+#tudo { 
+    //border:1px solid #c30;
+    //width:740px;
+    width:970px;
+    margin:0 auto; // centraliza
+    text-align:left;
+    voice-family: "}";
+    voice-family:inherit;
+}
+#divTop {
+    //border:1px solid #66FFFF;
+    width: 100%;
+    text-align:right;
+    height:100px;
+    background:#FFFFFF;
+}
+#divContent {
+    //border:1px solid #c30;
+    float:left;
+    width: 99%;
+    background:#FFFFFF;
+    margin: 5px 400px;
+    margin-left:1px;
+    margin-right:1px;
+    display:inline; /* hack navegadores ruins */
+}
+#divRight {
+    //border:1px solid #c30;
+    float:left;
+    width: 0%;
+    background:#FFFFFF;
+    margin-left: 5px;
+    padding-top: 20px
+}
+#divLeft {
+    //border:1px solid #c30;
+    float:left;
+    width: 0%;
+    background:#FFFFFF;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 20px
+}
+#divBottom {
+    //border:1px solid #c30;
+    float:none;
+    width: 100%;
+    text-align:center;
+    margin: 40px 5px;
+    //height:25px;
+    background:#FFFFFF;
+    clear:both;
+}
+* {
+    padding:0;
+}
+#ti{
+    font-size: 20px; 
+}
+#de{
+    font-size: 10px; 
+}
+
+#vermelho{
+    background-color: red; 
+    text-decoration-color:yellow;
+    width: 10px;
+    height: 10px;
+}
+
+#verde{
+    background-color: lime; 
+    text-decoration-color:yellow;
+    width: 10px;
+    height: 10px;
+}
+
+#amarelo{
+    background-color: yellow;
+    text-decoration-color:yellow;
+    width: 10px;
+    height: 10px;
+}
+#divFloat{
+    float:left;
+}
+
+div.legendaLetra{
+    width: 70px; 
+    text-align: center;
+}
+div.legendaAplicacao{
+    width: 250px; 
+    text-align: left;
+}
+div.erro{
+    margin-top: 10px;
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-bottom: 1px;
+    background-color:red;
+    text-decoration: blink;
+    color:yellow;
+    font-size:x-large;
+}
+div.borda{
+    border:1px solid #000; 
+    margin: 3px 3px 3px 3px;
+}
+div.fontePequena{
+    font-size: 1px;
+}
+div.verde{
+    background-color: #00FF00;
+}
+div.vermelho{
+    background-color: #FFA500;
+}
+div.laranja{
+    background-color: #FFA500;
+}
+div.justify{
+    // border:1px solid #c30;
+    text-align: justify;
+}
+div.center{
+    // border:1px solid #c30;
+    text-align: center;
+}
+div.right{
+    // border:1px solid #c30;
+    text-align: right;
+}

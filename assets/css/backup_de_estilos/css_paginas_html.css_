@@ -1,0 +1,78 @@
+/**
+
+Estilo da Página:
+
+*/
+body {
+    text-align:justify;
+    font:75%/140% Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    // #FFFFFF = Branco
+    // #99FF99 = Verde Claro
+    // #66FFFF = Azul claro
+    // #D9D9F3 = Cinza
+}
+#tudo { 
+    //border:1px solid #c30;
+    //width:740px;
+    width:970px;
+    margin:0 auto;
+    text-align:left;
+    voice-family: "}";
+    voice-family:inherit;
+    width:970px;
+}
+#divTop {
+    border:1px solid #66FFFF;
+    height:100px;
+    background:#FFFFFF;
+}
+#divContent {
+    //border:1px solid #c30;
+    float:left;
+    width: 69%;
+    background:#FFFFFF;
+    margin: 5px 400px;
+    margin-left:1px;
+    margin-right:1px;
+    display:inline; /* hack navegadores ruins */
+    text-align: justify;
+}
+#conteudo{
+    //border:1px solid #c30;
+    float:left;
+    //width: 408px;
+    width: 100%;
+    background:#FFFFFF;
+    margin-left:1px;
+    margin-right:1px;
+    display:inline; /* hack navegadores ruins */
+    text-align:justify;
+}
+#divRight {
+    //border:1px solid #c30;
+    float:left;
+    width: 15%;
+    background:#FFFFFF;
+    margin-left: 5px;
+}
+#divLeft {
+    //border:1px solid #c30;
+    float:left;
+    width: 15%;
+    background:#FFFFFF;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#divBottom {
+    text-align:center;
+    margin: 40px 5px;
+    border:1px solid #66FFFF;
+    height:50px;
+    background:#FFFFFF;
+    clear:both;
+}
+* {
+    padding:0;
+}

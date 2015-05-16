@@ -1,0 +1,46 @@
+fieldset{
+    display: block;
+    width: 99%;
+    padding-left: 10px;
+}
+form{
+    //border:1px solid #9C9C9C;
+    margin:10px;
+}
+form label{
+    //background-color: #E0FFFF;
+    //width: 150px;
+    //float:left;
+    border: 1px;
+    padding: 1px;
+    font-size: small;
+    display: block;
+}
+form input[type=text]{
+    //border:1px solid #9C9C9C;
+    width: 95%;
+    padding: 1px;
+}
+form input[type=textarea]{
+    //border:1px solid #9C9C9C;
+    padding: 1px;
+}
+form input[type=password]{
+    //border:1px solid #9C9C9C;
+    width: 95%;
+    padding: 1px;
+}
+form input[type=text]:focus, form input[type=password]:focus{
+    border: 2px solid #0cf;
+}
+form input[type=submit]{
+    border: 1px solid #9C9C9C;
+    padding: 2px;
+    cursor: pointer;
+    display: block;
+    margin: 1px;
+}
+#r{
+    color: red; 
+    font-size: 20px;
+}

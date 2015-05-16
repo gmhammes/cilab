@@ -1,0 +1,12 @@
+#Esta linha habilita o uso do mod_rewrite no seu site
+RewriteEngine on
+
+# Ou se foi requisitado um arquivo (-f) e ele não existir
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Ou se foi requisitado um diretório (-d) e o mesmo não existir
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Passe os parametros da url para um $_GET[url] no arquivo index
+# Modeloantigo do meu primeiro MVC: RewriteRule .* index.php?url=$0 [PT,L]
+RewriteRule .* index.php/$0 [PT,L]

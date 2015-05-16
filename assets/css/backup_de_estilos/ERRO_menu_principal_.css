@@ -1,0 +1,19 @@
+.menu{
+    width: 0px;
+    position: fixed;
+    width: 100%;
+    top: 200px;
+    left: auto;
+}
+div#divMuda{
+    background-color: green;
+    display: block;
+    width: 100px;
+    height: 20px;
+    overflow:hidden;
+    float: left;
+}
+#divMuda:hover {
+    background-color:red;
+    height: 300px;
+}
